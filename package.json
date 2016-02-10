@@ -1,0 +1,37 @@
+{
+  "name": "builder-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "jspm install"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "dustjs-linkedin": "~2.7.2",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0",
+    "gulp-concat": "^2.4.3",
+    "jspm": "0.16.13",
+    "jspm-git": "^0.4.2",
+    "systemjs": "^0.19.5",
+    "systemjs-builder": "0.14.12"
+  },
+  "registry": "jspm",
+  "jspm": {
+    "main": "app",
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "dustjs-helpers": "npm:dustjs-helpers@~1.6.3",
+      "dustjs-linkedin": "npm:dustjs-linkedin@~2.7.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.23",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.3"
+    }
+  }
+}
