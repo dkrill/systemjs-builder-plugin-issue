@@ -8,7 +8,6 @@ System.config({
     ]
   },
   paths: {
-    "bitbucket:*": "jspm_packages/bitbucket/*",
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
